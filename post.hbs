@@ -21,9 +21,9 @@
   {{! Everything inside the #author tags pulls data from the author }}
   {{#author}}
 
-      {{#if image}}
+      {{#if feature_image}}
       <figure class="author-image">
-          <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+          <a class="img" href="{{url}}" style="background-image: url({{img_url}})"><span class="hidden">{{name}}'s Picture</span></a>
       </figure>
       {{/if}}
 
